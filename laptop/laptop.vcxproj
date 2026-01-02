@@ -102,6 +102,13 @@
       <Project>{7C8F4B2E-9A1D-4F3E-B8C5-1E2F3A4B5C6D}</Project>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dma\memprocfs_wrapper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dma\memprocfs_wrapper.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
