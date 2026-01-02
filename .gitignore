@@ -51,7 +51,12 @@ config.local.json
 # Reference repositories (don't commit)
 references/Andromeda-CS2-Base/
 references/MemProcFS/
+references/MemProcFS_files_and_binaries*/
 references/insider/
+
+# Release packages
+phaethon-release/
+*.zip
 
 # Compiled DLLs (we'll document where to get them)
 *.dll
